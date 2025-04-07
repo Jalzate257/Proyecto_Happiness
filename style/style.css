@@ -1,0 +1,2136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width:354px) and (max-width: 480px) {
+
+    /*Oculto*/
+    #seccionSeisDesktop {
+        display: none;
+    }
+
+    /*Header*/
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 2vw 3vw;
+        background-color: #f5cb00;
+        align-items: center;
+    }
+
+    /*Navegador Header*/
+    nav {
+        display: flex;
+        color: black;
+        width: 60%;
+        justify-content: space-around;
+        padding: 2vw 2vw;
+        font-size: 2.5vw;
+        height: 5vw;
+    }
+
+    /*Seccion Uno de Section*/
+    #seccionUno {
+        background: linear-gradient(to bottom, white 45%, #f5cb00 45%);
+    }
+
+    /*Logo Header*/
+    #logoHeader {
+        width: 20vw;
+        height: 15vw;
+    }
+
+    /*Contenedor Horizontal Seccion Uno*/
+    #contenedorHSecUno {
+        display: flex;
+        padding: 2vw 3vw;
+    }
+
+    /*Imagen Uno Seccion Uno*/
+    #imagenUno {
+        width: 40vw;
+        height: auto;
+        margin-right: 2vw;
+    }
+
+    /*Textos Seccion Uno*/
+    #textosSecUno {
+        font-size: 3.5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    /*Parrafo Seccion Uno*/
+    #parrafoPartUno {
+        font-size: 2.5vw;
+    }
+
+    /*Boton Seccion Uno*/
+    #botonUno {
+        background-color: #f5cb00;
+        color: black;
+        border: none;
+        padding: 1vw 3vw;
+        font-size: 3vw;
+        width: 25vw;
+        font-weight: 700
+    }
+
+    /*parte Dos de la Seccion Uno*/
+    #partDosSecUno {
+        background-color: #e6e6e6;
+        display: flex;
+        font-size: 3vw;
+        margin: 5vw;
+        height: 30vw;
+        padding: 2vw;
+        justify-content: space-between;
+    }
+
+    /*Imagenes de los Graficos de Seccion Uno*/
+    .imgGraficos {
+        width: 20vw;
+        height: 20vw;
+        margin-top: 3.5vw;
+    }
+
+    /*Contenedor de Textos Seccion Dos*/
+    #contenedorTextoPartDos {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    /*Parrafo parte Dos de Seccion Uno*/
+    #parrafoPartDos {
+        font-size: 2vw;
+        height: 10vw;
+    }
+
+    /*Boton Dos*/
+    #botonDos {
+        background-color: transparent;
+        color: black;
+        border: none;
+        font-size: 3vw;
+        width: 22vw;
+        padding: 2vw;
+        font-weight: 700;
+    }
+
+    /*Parte Tres de Seccion Uno*/
+    #partTresSecUno {
+        display: flex;
+        padding: 2vw;
+        justify-content: space-between;
+        background-color: transparent;
+    }
+
+    /*Contenedor Textos Seccion Tres*/
+    #contenedorTextoPartTres {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 3vw;
+        width: 45%;
+        height: 30vw;
+        margin-left: 3vw;
+    }
+
+    /*Parrafo Parte Tres de Seccion Uno*/
+    #parrafoPartTres {
+        font-size: 2vw;
+    }
+
+    /*Imagen Dos Seccion Uno*/
+    #imagenDos {
+        width: 45vw;
+        height: 45vw;
+        margin-top: 3vw;
+    }
+
+    /*Boton parte Tres de Seccion Uno*/
+    #botonTres {
+        width: 20vw;
+        font-size: 3vw;
+        padding: 1vw;
+        background-color: black;
+        color: white;
+    }
+
+    /*Seccion Dos*/
+    #seccionDos {
+        background-color: white;
+        padding: 10vw 6vw;
+        margin: 2vw 0vw;
+        width: 88%;
+    }
+
+    /*Contenedor que va con Sombra Seccion Dos de Section*/
+    #contenedorSecDos {
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 10px 10px 10px gray;
+    }
+
+    /*Imagen Tres de Seccion Dos de Section*/
+    #imagenTres {
+        width: 100%;
+    }
+
+    /*Contenedor De textos Seccion Dos de Section*/
+    #contenedorTextosSecDos {
+        background-color: #e6e6e6;
+        color: #f5cb00;
+        font-size: 3vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 2vw;
+        padding-top: 2vw;
+        height: 55vw;
+        width: 50%;
+    }
+
+    /*Parrafo Seccion Dos de Section*/
+    #parrafoSecDos {
+        color: black;
+        font-size: 3vw;
+    }
+
+    /*Boton Seccion Dos de Section*/
+    #botonCuatro {
+        background-color: black;
+        padding: 1vw;
+        color: white;
+        width: 20vw;
+        font-size: 3vw;
+    }
+
+    /*Imagen Seccion Dos*/
+    #imagenGraficoSecDos {
+        margin-left: 10vw;
+        width: 60%;
+    }
+
+    /*Imagen Seccion Tres de Section*/
+    #imagenTres {
+        width: 60%;
+        height: 177%;
+    }
+
+    /*Seccion Tres de Section*/
+    #seccionTres {
+        background-color: black;
+        padding: 5vw 2vw;
+        color: #f5cb00;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 90vw;
+        font-size: 5VW;
+    }
+
+    /*Parrafo Seccion Tres de Section*/
+    #textoSecTres {
+        color: white;
+        font-size: 3vw;
+        text-align: center;
+        width: 80vw;
+
+    }
+
+    /*Imagen Seccion Tres de Section*/
+    #imagenCuatro {
+        width: 65vw;
+        height: 50vw;
+    }
+
+    /*Boton Seccion Tres*/
+    #botonCinco {
+        background-color: #f5cb00;
+        color: black;
+        border: none;
+        padding: 2vw 3vw;
+        font-size: 3vw;
+        font-weight: 700;
+    }
+
+    /*Seccion Cuatro de Section*/
+    #seccionCuatro {
+        background-color: white;
+        display: flex;
+        padding: 2vw;
+        height: 70vw;
+        align-items: center;
+    }
+
+    /*Contenedor de Imagen Seccion Cuatro de Section*/
+    #contenedorImagenSecCuatro {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*Imagen Seccion Cuatro*/
+    #imagenCinco {
+        width: 90%;
+        height: 70%;
+    }
+
+    /*Contenedor de Textos Seccion Cuatro de Section*/
+    #contenedorTextosSecCuatro {
+        width: 50%;
+        font-size: 3vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 30vw;
+        margin-left: 2vw;
+    }
+
+    /*Parrafo Seccion Cuatro de Section*/
+    #parrafoSecCuatro {
+        font-size: 2.5vw;
+        width: 40vw;
+    }
+
+    /*Boton Seccion Cuatro de Section*/
+    #botonSeis {
+        width: 25vw;
+        padding: 2vw 2vw;
+        background-color: #f5cb00;
+        color: black;
+        border: none;
+    }
+
+    /*Seccion Cinco de Section*/
+    #seccionCinco {
+        display: flex;
+        background-color: #e6e6e6;
+        padding: 3vw 3vw;
+        height: 70vw;
+        align-items: center;
+    }
+
+    /*Imagen Seccion Cinco*/
+    #imagenSeis {
+        width: 45vw;
+        height: 45vw;
+        margin-left: 2vw;
+    }
+
+    /*Contenedor de Textos Seccion Cinco de Section*/
+    #contenedorTextosSecCinco {
+        width: 50%;
+        font-size: 3vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 60%;
+        font-size: 3.5vw;
+        margin-left: 3vw;
+
+    }
+
+    /*parrafo Seccion Cinco de Section*/
+    #parrafoSecCinco {
+        font-size: 2.5vw;
+        width: 40vw;
+    }
+
+    /*Boton Seccion Cinco*/
+    #botonSiete {
+        width: 25vw;
+        padding: 2vw 2vw;
+        border: none;
+        background-color: #f5cb00;
+        font-weight: 700;
+        font-size: 3vw;
+    }
+
+    /*Seccion Cinco*/
+    #seccionSeis {}
+
+    /*Contenedor Parte uno de Seccion Seis de Section*/
+    #contenedorPartUnoSecSeis {
+        font-size: 4.5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3vw 2vw;
+    }
+
+    /*titulo Parte Uno de Seccion Seis de Section*/
+    #tituloSecSeis {
+        text-align: center;
+        color: #f5cb00;
+    }
+
+    /*parrafo Seccion Seis de Section*/
+    #parrafoSecSeis {
+        width: 90%;
+        text-align: center;
+        margin-top: 3vw;
+    }
+
+    /*Formulario Seccion Seis*/
+    #formSecSeis {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+        color: white;
+        padding: 5vw 10vw;
+    }
+
+    /*Espacios en Blanco del Formulario*/
+    .espacioBlanco {
+        height: 5vw;
+        width: 73vw;
+        border: 1px solid white;
+        background: transparent;
+        margin: 2vw;
+    }
+
+    .espacioBlancoName {
+        height: 5vw;
+        width: 30vw;
+        border: 1px solid white;
+        background: transparent;
+    }
+
+    /*Contenedor de Datos de Name y Surname de Formulario*/
+    #infoNameForm {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+
+    /*Contenedor Espacios en Blanco de Name y Surname de Formulario*/
+    #contHorizontalForm {
+        display: flex;
+        justify-content: space-between;
+        width: 73vw;
+        margin-bottom: 2vw;
+    }
+
+    /*Contenedor de Dato de Formulario*/
+    .datosForm {
+        margin: 1vw;
+        width: 92%;
+    }
+
+    /*Palabra Surname de Formulario*/
+    #apellido {
+        margin-right: 12vw;
+    }
+
+    /*Contenedor Texto Formulario*/
+    #contenedorTextoForm {
+        width: 100%;
+        text-align: center;
+        margin-top: 3vw;
+        font-size: 4vw;
+    }
+
+    /*Seccion Siete*/
+    #seccionSiete {
+        background-color: #f5cb00;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        height: 100vw;
+        padding: 5vw 2vw;
+    }
+
+    /*Imagen Mapa*/
+    #imagenSiete {
+        width: 90vw;
+        height: 70vw;
+    }
+
+    /*Titulo Seccion Siete de Section*/
+    #tituloSecSiete {
+        font-weight: 700;
+    }
+
+    /*Parrafo Seccion Siete*/
+    #parrafoSecSiete {
+        font-weight: 600;
+        font-size: 4vw;
+    }
+    /*Boton Seccion Siete*/
+    #botonNueve{
+        width: 20vw;
+        height: 7vw;
+        font-size: 3vw;
+        background-color: black;
+        color: white;
+    }
+
+    /*Footer*/
+    footer {
+        background-color: black;
+        color: #f5cb00;
+        display: flex;
+        flex-direction: column;
+        padding: 5vw;
+    }
+
+    /*Contenedor Footer*/
+    #contenedorHfooter {
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        font-size: 5vw;
+    }
+
+    /*Imagen Footer*/
+    #imagenFooter {
+        width: 30vw;
+        margin-bottom: 5vw;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    /*Linea Amarilla Footer*/
+    #lineaFooter {
+        height: 0.4vw;
+        background-color: white;
+        width: 100%;
+        margin: 2vw 0vw;
+    }
+
+    /*Contenedor Seccion Copyright*/
+    #contCopy {
+        font-size: 3vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width:481px) and (max-width: 768px) {
+
+    /*Oculto*/
+    /*Seccion Seis Oculto*/
+    #seccionSeis {
+        display: none;
+    }
+
+    /*Header*/
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 2vw 3vw;
+        background-color: #f5cb00;
+        align-items: center;
+    }
+
+    /*Navegador Header*/
+    nav {
+        display: flex;
+        color: black;
+        width: 65%;
+        justify-content: space-around;
+        padding: 2vw 2vw;
+        font-size: 3vw;
+        height: 5vw;
+    }
+
+    /*Seccion Uno de Section*/
+    #seccionUno {
+        background: linear-gradient(to bottom, white 45%, #f5cb00 45%);
+    }
+
+    /*Logo Header*/
+    #logoHeader {
+        width: 20vw;
+        height: 15vw;
+    }
+
+    /*Contenedor Horizontal Seccion Uno*/
+    #contenedorHSecUno {
+        display: flex;
+        padding: 2vw 3vw;
+    }
+
+    /*Imagen Uno Seccion Uno*/
+    #imagenUno {
+        width: 40vw;
+        height: auto;
+        margin-right: 2vw;
+    }
+
+    /*Textos Seccion Uno*/
+    #textosSecUno {
+        font-size: 3.5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    /*Parrafo Seccion Uno*/
+    #parrafoPartUno {
+        font-size: 2.6vw;
+    }
+
+    /*Boton Seccion Uno*/
+    #botonUno {
+        background-color: #f5cb00;
+        color: black;
+        border: none;
+        padding: 1vw 3vw;
+        font-size: 3vw;
+        width: 25vw;
+        font-weight: 700
+    }
+
+    /*parte Dos de la Seccion Uno*/
+    #partDosSecUno {
+        background-color: #e6e6e6;
+        display: flex;
+        font-size: 3vw;
+        margin: 5vw;
+        height: 30vw;
+        padding: 2vw;
+        justify-content: space-between;
+    }
+
+    /*Imagenes de los Graficos de Seccion Uno*/
+    .imgGraficos {
+        width: 20vw;
+        height: 20vw;
+        margin-top: 3.5vw;
+    }
+
+    /*Contenedor de Textos Seccion Dos*/
+    #contenedorTextoPartDos {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    /*Parrafo parte Dos de Seccion Uno*/
+    #parrafoPartDos {
+        font-size: 2vw;
+        height: 10vw;
+    }
+
+    /*Boton Dos*/
+    #botonDos {
+        background-color: transparent;
+        color: black;
+        border: none;
+        font-size: 3vw;
+        width: 22vw;
+        padding: 2vw;
+        font-weight: 700;
+    }
+
+    /*Parte Tres de Seccion Uno*/
+    #partTresSecUno {
+        display: flex;
+        padding: 2vw;
+        justify-content: space-between;
+        background-color: transparent;
+    }
+
+    /*Contenedor Textos Seccion Tres*/
+    #contenedorTextoPartTres {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 3vw;
+        width: 45%;
+        height: 30vw;
+        margin-left: 3vw;
+    }
+
+    /*Parrafo Parte Tres de Seccion Uno*/
+    #parrafoPartTres {
+        font-size: 2vw;
+    }
+
+    /*Imagen Dos Seccion Uno*/
+    #imagenDos {
+        width: 45vw;
+        height: 45vw;
+        margin-top: 3vw;
+    }
+
+    /*Boton parte Tres de Seccion Uno*/
+    #botonTres {
+        width: 20vw;
+        font-size: 3vw;
+        padding: 1vw;
+        background-color: black;
+        color: white;
+    }
+
+    /*Seccion Dos*/
+    #seccionDos {
+        background-color: white;
+        padding: 10vw 6vw;
+        margin: 2vw 0vw;
+        width: 88%;
+    }
+
+    /*Contenedor que va con Sombra Seccion Dos de Section*/
+    #contenedorSecDos {
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 10px 10px 10px gray;
+    }
+
+    /*Imagen Tres de Seccion Dos de Section*/
+    #imagenTres {
+        width: 100%;
+    }
+
+    /*Contenedor De textos Seccion Dos de Section*/
+    #contenedorTextosSecDos {
+        background-color: #e6e6e6;
+        color: #f5cb00;
+        font-size: 3vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 2vw;
+        padding-top: 2vw;
+        height: 55vw;
+        width: 50%;
+    }
+
+    /*Parrafo Seccion Dos de Section*/
+    #parrafoSecDos {
+        color: black;
+        font-size: 3vw;
+    }
+
+    /*Boton Seccion Dos de Section*/
+    #botonCuatro {
+        background-color: black;
+        padding: 1vw;
+        color: white;
+        width: 20vw;
+        font-size: 3vw;
+    }
+
+    /*Imagen Seccion Dos*/
+    #imagenGraficoSecDos {
+        margin-left: 10vw;
+        width: 60%;
+    }
+
+    /*Imagen Seccion Tres de Section*/
+    #imagenTres {
+        width: 60%;
+        height: 177%;
+    }
+
+    /*Seccion Tres de Section*/
+    #seccionTres {
+        background-color: black;
+        padding: 5vw 2vw;
+        color: #f5cb00;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 90vw;
+        font-size: 5VW;
+    }
+
+    /*Parrafo Seccion Tres de Section*/
+    #textoSecTres {
+        color: white;
+        font-size: 3vw;
+        text-align: center;
+        width: 80vw;
+
+    }
+
+    /*Imagen Seccion Tres de Section*/
+    #imagenCuatro {
+        width: 65vw;
+        height: 50vw;
+    }
+
+    /*Boton Seccion Tres*/
+    #botonCinco {
+        background-color: #f5cb00;
+        color: black;
+        border: none;
+        padding: 2vw 3vw;
+        font-size: 3vw;
+        font-weight: 700;
+    }
+
+    /*Seccion Cuatro de Section*/
+    #seccionCuatro {
+        background-color: white;
+        display: flex;
+        padding: 2vw;
+        height: 70vw;
+        align-items: center;
+    }
+
+    /*Contenedor de Imagen Seccion Cuatro de Section*/
+    #contenedorImagenSecCuatro {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*Imagen Seccion Cuatro*/
+    #imagenCinco {
+        width: 90%;
+        height: 70%;
+    }
+
+    /*Contenedor de Textos Seccion Cuatro de Section*/
+    #contenedorTextosSecCuatro {
+        width: 50%;
+        font-size: 3vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 30vw;
+        margin-left: 2vw;
+    }
+
+    /*Parrafo Seccion Cuatro de Section*/
+    #parrafoSecCuatro {
+        font-size: 2.5vw;
+        width: 40vw;
+    }
+
+    /*Boton Seccion Cuatro de Section*/
+    #botonSeis {
+        width: 25vw;
+        padding: 2vw 2vw;
+        background-color: #f5cb00;
+        color: black;
+        border: none;
+        font-size: 2.7vw;
+    }
+
+    /*Seccion Cinco de Section*/
+    #seccionCinco {
+        display: flex;
+        background-color: #e6e6e6;
+        padding: 3vw 3vw;
+        height: 70vw;
+        align-items: center;
+    }
+
+    /*Imagen Seccion Cinco*/
+    #imagenSeis {
+        width: 45vw;
+        height: 45vw;
+        margin-left: 2vw;
+    }
+
+    /*Contenedor de Textos Seccion Cinco de Section*/
+    #contenedorTextosSecCinco {
+        width: 50%;
+        font-size: 3vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 60%;
+        font-size: 3.5vw;
+        margin-left: 3vw;
+
+    }
+
+    /*parrafo Seccion Cinco de Section*/
+    #parrafoSecCinco {
+        font-size: 2.5vw;
+        width: 40vw;
+    }
+
+    /*Boton Seccion Cinco*/
+    #botonSiete {
+        width: 25vw;
+        padding: 2vw 2vw;
+        border: none;
+        background-color: #f5cb00;
+        font-weight: 700;
+        font-size: 3vw;
+    }
+
+    /*Seccion Seis*/
+    #seccionSeisDesktop {
+        display: flex;
+    }
+
+    /*Contenedor Parte uno de Seccion Seis de Section*/
+    #contenedorPartUnoSecSeis {
+        font-size: 3vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /*titulo Parte Uno de Seccion Seis de Section*/
+    #tituloSecSeis {
+        text-align: justify;
+        color: #f5cb00;
+        width: 80%;
+    }
+
+    /*parrafo Seccion Seis de Section*/
+    #parrafoSecSeis {
+        width: 80%;
+        text-align: justify;
+        margin-top: 2vw;
+    }
+
+    /*Boton Seccion Seis*/
+    #botonOcho {
+        color: white;
+        background-color: black;
+        width: 20vw;
+        height: 7vw;
+        padding: 1vw;
+        margin-top: 2vw;
+        font-size: 3vw;
+        font-weight: 500;
+        margin-right: 25vw;
+    }
+
+    /*Formulario Seccion Seis*/
+    #formSecSeis {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+        color: white;
+        width: 40%;
+        padding: 2vw;
+    }
+
+    /*Espacios en Blanco del Formulario*/
+    .espacioBlanco {
+        height: 4vw;
+        width: 40vw;
+        border: 1px solid white;
+        background: transparent;
+        margin: 1vw 2vw;
+    }
+
+    .espacioBlancoName {
+        height: 4vw;
+        width: 18vw;
+        border: 1px solid white;
+        background: transparent;
+    }
+
+    /*Contenedor de Datos de Name y Surname de Formulario*/
+    #infoNameForm {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        font-size: 3vw;
+margin-bottom: 1vw;
+    }
+
+    /*Contenedor Espacios en Blanco de Name y Surname de Formulario*/
+    #contHorizontalForm {
+        display: flex;
+        justify-content: space-between;
+        width: 40vw;
+        margin-bottom: 2vw;
+    }
+
+    /*Contenedor de Dato de Formulario*/
+    .datosForm {
+        margin: 1vw;
+        width: 100%;
+        font-size: 3vw;
+    }
+
+    /*Palabra Surname de Formulario*/
+    #apellido {
+        margin-right: 6vw;
+    }
+
+    /*Contenedor Texto Formulario*/
+    #contenedorTextoForm {
+        width: 100%;
+        text-align: center;
+        margin-top: 3vw;
+        font-size: 3vw;
+    }
+
+    /*Seccion Siete*/
+    #seccionSiete {
+        background-color: #f5cb00;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        height: 100vw;
+        padding: 5vw 2vw;
+    }
+
+    /*Imagen Mapa*/
+    #imagenSiete {
+        width: 90vw;
+        height: 70vw;
+    }
+
+    /*Titulo Seccion Siete de Section*/
+    #tituloSecSiete {
+        font-weight: 700;
+        font-size: 5vw;
+    }
+
+    /*Parrafo Seccion Siete*/
+    #parrafoSecSiete {
+        font-weight: 600;
+        font-size: 4vw;
+    }
+    /*Boton Seccion Siete*/
+    #botonNueve{
+        width: 20vw;
+        height: 7vw;
+        font-size: 3vw;
+        background-color: black;
+        color: white;
+    }
+    /*Footer*/
+    footer {
+        background-color: black;
+        color: #f5cb00;
+        display: flex;
+        flex-direction: column;
+        padding: 5vw;
+    }
+
+    /*Contenedor Footer*/
+    #contenedorHfooter {
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        font-size: 5vw;
+    }
+
+    /*Imagen Footer*/
+    #imagenFooter {
+        width: 30vw;
+        margin-bottom: 5vw;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    /*Linea Amarilla Footer*/
+    #lineaFooter {
+        height: 0.4vw;
+        background-color: white;
+        width: 100%;
+        margin: 2vw 0vw;
+    }
+
+    /*Contenedor Seccion Copyright*/
+    #contCopy {
+        font-size: 3vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width:769px) and (max-width: 1279px) {
+
+    /*Oculto*/
+    /*Seccion Seis Oculto*/
+    #seccionSeis {
+        display: none;
+    }
+
+    /*Header*/
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 2vw 3vw;
+        background-color: #f5cb00;
+        align-items: center;
+    }
+
+    /*Navegador Header*/
+    nav {
+        display: flex;
+        color: black;
+        width: 65%;
+        justify-content: space-around;
+        padding: 2vw 2vw;
+        font-size: 3vw;
+        height: 5vw;
+    }
+
+    /*Seccion Uno de Section*/
+    #seccionUno {
+        background: linear-gradient(to bottom, white 45%, #f5cb00 45%);
+    }
+
+    /*Logo Header*/
+    #logoHeader {
+        width: 20vw;
+        height: 15vw;
+    }
+
+    /*Contenedor Horizontal Seccion Uno*/
+    #contenedorHSecUno {
+        display: flex;
+        padding: 2vw 3vw;
+    }
+
+    /*Imagen Uno Seccion Uno*/
+    #imagenUno {
+        width: 40vw;
+        height: auto;
+        margin-right: 2vw;
+    }
+
+    /*Textos Seccion Uno*/
+    #textosSecUno {
+        font-size: 3.5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    /*Parrafo Seccion Uno*/
+    #parrafoPartUno {
+        font-size: 2.6vw;
+    }
+
+    /*Boton Seccion Uno*/
+    #botonUno {
+        background-color: #f5cb00;
+        color: black;
+        border: none;
+        padding: 1vw 3vw;
+        font-size: 3vw;
+        width: 25vw;
+        font-weight: 700
+    }
+
+    /*parte Dos de la Seccion Uno*/
+    #partDosSecUno {
+        background-color: #e6e6e6;
+        display: flex;
+        font-size: 3vw;
+        margin: 5vw;
+        height: 30vw;
+        padding: 2vw;
+        justify-content: space-between;
+    }
+
+    /*Imagenes de los Graficos de Seccion Uno*/
+    .imgGraficos {
+        width: 20vw;
+        height: 20vw;
+        margin-top: 3.5vw;
+    }
+
+    /*Contenedor de Textos Seccion Dos*/
+    #contenedorTextoPartDos {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    /*Parrafo parte Dos de Seccion Uno*/
+    #parrafoPartDos {
+        font-size: 2vw;
+        height: 10vw;
+    }
+
+    /*Boton Dos*/
+    #botonDos {
+        background-color: transparent;
+        color: black;
+        border: none;
+        font-size: 3vw;
+        width: 22vw;
+        padding: 2vw;
+        font-weight: 700;
+    }
+
+    /*Parte Tres de Seccion Uno*/
+    #partTresSecUno {
+        display: flex;
+        padding: 2vw;
+        justify-content: space-between;
+        background-color: transparent;
+    }
+
+    /*Contenedor Textos Seccion Tres*/
+    #contenedorTextoPartTres {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 3vw;
+        width: 45%;
+        height: 30vw;
+        margin-left: 3vw;
+    }
+
+    /*Parrafo Parte Tres de Seccion Uno*/
+    #parrafoPartTres {
+        font-size: 2vw;
+    }
+
+    /*Imagen Dos Seccion Uno*/
+    #imagenDos {
+        width: 45vw;
+        height: 45vw;
+        margin-top: 3vw;
+    }
+
+    /*Boton parte Tres de Seccion Uno*/
+    #botonTres {
+        width: 20vw;
+        font-size: 3vw;
+        padding: 1vw;
+        background-color: black;
+        color: white;
+    }
+
+    /*Seccion Dos*/
+    #seccionDos {
+        background-color: white;
+        padding: 10vw 6vw;
+        margin: 2vw 0vw;
+        width: 88%;
+    }
+
+    /*Contenedor que va con Sombra Seccion Dos de Section*/
+    #contenedorSecDos {
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 10px 10px 10px gray;
+    }
+
+    /*Imagen Tres de Seccion Dos de Section*/
+    #imagenTres {
+        width: 100%;
+    }
+
+    /*Contenedor De textos Seccion Dos de Section*/
+    #contenedorTextosSecDos {
+        background-color: #e6e6e6;
+        color: #f5cb00;
+        font-size: 3vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 2vw;
+        padding-top: 2vw;
+        height: 55vw;
+        width: 50%;
+    }
+
+    /*Parrafo Seccion Dos de Section*/
+    #parrafoSecDos {
+        color: black;
+        font-size: 3vw;
+    }
+
+    /*Boton Seccion Dos de Section*/
+    #botonCuatro {
+        background-color: black;
+        padding: 1vw;
+        color: white;
+        width: 20vw;
+        font-size: 3vw;
+    }
+
+    /*Imagen Seccion Dos*/
+    #imagenGraficoSecDos {
+        margin-left: 10vw;
+        width: 60%;
+    }
+
+    /*Imagen Seccion Tres de Section*/
+    #imagenTres {
+        width: 60%;
+        height: 177%;
+    }
+
+    /*Seccion Tres de Section*/
+    #seccionTres {
+        background-color: black;
+        padding: 5vw 2vw;
+        color: #f5cb00;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 90vw;
+        font-size: 5VW;
+    }
+
+    /*Parrafo Seccion Tres de Section*/
+    #textoSecTres {
+        color: white;
+        font-size: 3vw;
+        text-align: center;
+        width: 80vw;
+
+    }
+
+    /*Imagen Seccion Tres de Section*/
+    #imagenCuatro {
+        width: 65vw;
+        height: 50vw;
+    }
+
+    /*Boton Seccion Tres*/
+    #botonCinco {
+        background-color: #f5cb00;
+        color: black;
+        border: none;
+        padding: 2vw 3vw;
+        font-size: 3vw;
+        font-weight: 700;
+    }
+
+    /*Seccion Cuatro de Section*/
+    #seccionCuatro {
+        background-color: white;
+        display: flex;
+        padding: 2vw;
+        height: 70vw;
+        align-items: center;
+    }
+
+    /*Contenedor de Imagen Seccion Cuatro de Section*/
+    #contenedorImagenSecCuatro {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*Imagen Seccion Cuatro*/
+    #imagenCinco {
+        width: 90%;
+        height: 70%;
+    }
+
+    /*Contenedor de Textos Seccion Cuatro de Section*/
+    #contenedorTextosSecCuatro {
+        width: 50%;
+        font-size: 3vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 30vw;
+        margin-left: 2vw;
+    }
+
+    /*Parrafo Seccion Cuatro de Section*/
+    #parrafoSecCuatro {
+        font-size: 2.5vw;
+        width: 40vw;
+    }
+
+    /*Boton Seccion Cuatro de Section*/
+    #botonSeis {
+        width: 25vw;
+        padding: 2vw 2vw;
+        background-color: #f5cb00;
+        color: black;
+        border: none;
+        font-size: 2.7vw;
+    }
+
+    /*Seccion Cinco de Section*/
+    #seccionCinco {
+        display: flex;
+        background-color: #e6e6e6;
+        padding: 3vw 3vw;
+        height: 70vw;
+        align-items: center;
+    }
+
+    /*Imagen Seccion Cinco*/
+    #imagenSeis {
+        width: 45vw;
+        height: 45vw;
+        margin-left: 2vw;
+    }
+
+    /*Contenedor de Textos Seccion Cinco de Section*/
+    #contenedorTextosSecCinco {
+        width: 50%;
+        font-size: 3vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 60%;
+        font-size: 3.5vw;
+        margin-left: 3vw;
+
+    }
+
+    /*parrafo Seccion Cinco de Section*/
+    #parrafoSecCinco {
+        font-size: 2.5vw;
+        width: 40vw;
+    }
+
+    /*Boton Seccion Cinco*/
+    #botonSiete {
+        width: 25vw;
+        padding: 2vw 2vw;
+        border: none;
+        background-color: #f5cb00;
+        font-weight: 700;
+        font-size: 3vw;
+    }
+
+    /*Seccion Seis*/
+    #seccionSeisDesktop {
+        display: flex;
+    }
+
+    /*Contenedor Parte uno de Seccion Seis de Section*/
+    #contenedorPartUnoSecSeis {
+        font-size: 3vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /*titulo Parte Uno de Seccion Seis de Section*/
+    #tituloSecSeis {
+        text-align: justify;
+        color: #f5cb00;
+        width: 80%;
+    }
+
+    /*parrafo Seccion Seis de Section*/
+    #parrafoSecSeis {
+        width: 80%;
+        text-align: justify;
+        margin-top: 2vw;
+    }
+
+    /*Boton Seccion Seis*/
+    #botonOcho {
+        color: white;
+        background-color: black;
+        width: 20vw;
+        height: 7vw;
+        padding: 1vw;
+        margin-top: 2vw;
+        font-size: 3vw;
+        font-weight: 500;
+        margin-right: 25vw;
+    }
+
+    /*Formulario Seccion Seis*/
+    #formSecSeis {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+        color: white;
+        width: 40%;
+        padding: 2vw;
+    }
+
+    /*Espacios en Blanco del Formulario*/
+    .espacioBlanco {
+        height: 4vw;
+        width: 40vw;
+        border: 1px solid white;
+        background: transparent;
+        margin: 1vw 2vw;
+    }
+
+    .espacioBlancoName {
+        height: 4vw;
+        width: 18vw;
+        border: 1px solid white;
+        background: transparent;
+    }
+
+    /*Contenedor de Datos de Name y Surname de Formulario*/
+    #infoNameForm {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        font-size: 3vw;
+margin-bottom: 1vw;
+    }
+
+    /*Contenedor Espacios en Blanco de Name y Surname de Formulario*/
+    #contHorizontalForm {
+        display: flex;
+        justify-content: space-between;
+        width: 40vw;
+        margin-bottom: 2vw;
+    }
+
+    /*Contenedor de Dato de Formulario*/
+    .datosForm {
+        margin: 1vw;
+        width: 100%;
+        font-size: 3vw;
+    }
+
+    /*Palabra Surname de Formulario*/
+    #apellido {
+        margin-right: 6vw;
+    }
+
+    /*Contenedor Texto Formulario*/
+    #contenedorTextoForm {
+        width: 100%;
+        text-align: center;
+        margin-top: 3vw;
+        font-size: 3vw;
+    }
+
+    /*Seccion Siete*/
+    #seccionSiete {
+        background-color: #f5cb00;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        height: 100vw;
+        padding: 5vw 2vw;
+    }
+
+    /*Imagen Mapa*/
+    #imagenSiete {
+        width: 90vw;
+        height: 70vw;
+    }
+
+    /*Titulo Seccion Siete de Section*/
+    #tituloSecSiete {
+        font-weight: 700;
+        font-size: 5vw;
+    }
+
+    /*Parrafo Seccion Siete*/
+    #parrafoSecSiete {
+        font-weight: 600;
+        font-size: 4vw;
+    }
+    /*Boton Seccion Siete*/
+    #botonNueve{
+        width: 20vw;
+        height: 7vw;
+        font-size: 3vw;
+        background-color: black;
+        color: white;
+    }
+    /*Footer*/
+    footer {
+        background-color: black;
+        color: #f5cb00;
+        display: flex;
+        flex-direction: column;
+        padding: 5vw;
+    }
+
+    /*Contenedor Footer*/
+    #contenedorHfooter {
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        font-size: 5vw;
+    }
+
+    /*Imagen Footer*/
+    #imagenFooter {
+        width: 30vw;
+        margin-bottom: 5vw;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    /*Linea Amarilla Footer*/
+    #lineaFooter {
+        height: 0.4vw;
+        background-color: white;
+        width: 100%;
+        margin: 2vw 0vw;
+    }
+
+    /*Contenedor Seccion Copyright*/
+    #contCopy {
+        font-size: 3vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width:1280px)  {
+
+    /*Oculto*/
+    /*Seccion Seis Oculto*/
+    #seccionSeis {
+        display: none;
+    }
+
+    /*Header*/
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 2vw 3vw;
+        background-color: #f5cb00;
+        align-items: center;
+    }
+
+    /*Navegador Header*/
+    nav {
+        display: flex;
+        color: black;
+        width: 65%;
+        justify-content: space-around;
+        padding: 2vw 2vw;
+        font-size: 3vw;
+        height: 5vw;
+    }
+
+    /*Seccion Uno de Section*/
+    #seccionUno {
+        background: linear-gradient(to bottom, white 45%, #f5cb00 45%);
+    }
+
+    /*Logo Header*/
+    #logoHeader {
+        width: 20vw;
+        height: 15vw;
+    }
+
+    /*Contenedor Horizontal Seccion Uno*/
+    #contenedorHSecUno {
+        display: flex;
+        padding: 2vw 3vw;
+    }
+
+    /*Imagen Uno Seccion Uno*/
+    #imagenUno {
+        width: 40vw;
+        height: auto;
+        margin-right: 2vw;
+    }
+
+    /*Textos Seccion Uno*/
+    #textosSecUno {
+        font-size: 3.5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    /*Parrafo Seccion Uno*/
+    #parrafoPartUno {
+        font-size: 2.6vw;
+    }
+
+    /*Boton Seccion Uno*/
+    #botonUno {
+        background-color: #f5cb00;
+        color: black;
+        border: none;
+        padding: 1vw 3vw;
+        font-size: 3vw;
+        width: 25vw;
+        font-weight: 700
+    }
+
+    /*parte Dos de la Seccion Uno*/
+    #partDosSecUno {
+        background-color: #e6e6e6;
+        display: flex;
+        font-size: 3vw;
+        margin: 5vw;
+        height: 30vw;
+        padding: 2vw;
+        justify-content: space-between;
+    }
+
+    /*Imagenes de los Graficos de Seccion Uno*/
+    .imgGraficos {
+        width: 20vw;
+        height: 20vw;
+        margin-top: 3.5vw;
+    }
+
+    /*Contenedor de Textos Seccion Dos*/
+    #contenedorTextoPartDos {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    /*Parrafo parte Dos de Seccion Uno*/
+    #parrafoPartDos {
+        font-size: 2vw;
+        height: 10vw;
+    }
+
+    /*Boton Dos*/
+    #botonDos {
+        background-color: transparent;
+        color: black;
+        border: none;
+        font-size: 3vw;
+        width: 22vw;
+        padding: 2vw;
+        font-weight: 700;
+    }
+
+    /*Parte Tres de Seccion Uno*/
+    #partTresSecUno {
+        display: flex;
+        padding: 2vw;
+        justify-content: space-between;
+        background-color: transparent;
+    }
+
+    /*Contenedor Textos Seccion Tres*/
+    #contenedorTextoPartTres {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 3vw;
+        width: 45%;
+        height: 30vw;
+        margin-left: 3vw;
+    }
+
+    /*Parrafo Parte Tres de Seccion Uno*/
+    #parrafoPartTres {
+        font-size: 2vw;
+    }
+
+    /*Imagen Dos Seccion Uno*/
+    #imagenDos {
+        width: 45vw;
+        height: 45vw;
+        margin-top: 3vw;
+    }
+
+    /*Boton parte Tres de Seccion Uno*/
+    #botonTres {
+        width: 20vw;
+        font-size: 3vw;
+        padding: 1vw;
+        background-color: black;
+        color: white;
+    }
+
+    /*Seccion Dos*/
+    #seccionDos {
+        background-color: white;
+        padding: 10vw 6vw;
+        margin: 2vw 0vw;
+        width: 88%;
+    }
+
+    /*Contenedor que va con Sombra Seccion Dos de Section*/
+    #contenedorSecDos {
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 10px 10px 10px gray;
+    }
+
+    /*Imagen Tres de Seccion Dos de Section*/
+    #imagenTres {
+        width: 100%;
+    }
+
+    /*Contenedor De textos Seccion Dos de Section*/
+    #contenedorTextosSecDos {
+        background-color: #e6e6e6;
+        color: #f5cb00;
+        font-size: 3vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 2vw;
+        padding-top: 2vw;
+        height: 55vw;
+        width: 50%;
+    }
+
+    /*Parrafo Seccion Dos de Section*/
+    #parrafoSecDos {
+        color: black;
+        font-size: 3vw;
+    }
+
+    /*Boton Seccion Dos de Section*/
+    #botonCuatro {
+        background-color: black;
+        padding: 1vw;
+        color: white;
+        width: 20vw;
+        font-size: 3vw;
+    }
+
+    /*Imagen Seccion Dos*/
+    #imagenGraficoSecDos {
+        margin-left: 10vw;
+        width: 60%;
+    }
+
+    /*Imagen Seccion Tres de Section*/
+    #imagenTres {
+        width: 60%;
+        height: 177%;
+    }
+
+    /*Seccion Tres de Section*/
+    #seccionTres {
+        background-color: black;
+        padding: 5vw 2vw;
+        color: #f5cb00;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 90vw;
+        font-size: 5VW;
+    }
+
+    /*Parrafo Seccion Tres de Section*/
+    #textoSecTres {
+        color: white;
+        font-size: 3vw;
+        text-align: center;
+        width: 80vw;
+
+    }
+
+    /*Imagen Seccion Tres de Section*/
+    #imagenCuatro {
+        width: 65vw;
+        height: 50vw;
+    }
+
+    /*Boton Seccion Tres*/
+    #botonCinco {
+        background-color: #f5cb00;
+        color: black;
+        border: none;
+        padding: 2vw 3vw;
+        font-size: 3vw;
+        font-weight: 700;
+    }
+
+    /*Seccion Cuatro de Section*/
+    #seccionCuatro {
+        background-color: white;
+        display: flex;
+        padding: 2vw;
+        height: 70vw;
+        align-items: center;
+    }
+
+    /*Contenedor de Imagen Seccion Cuatro de Section*/
+    #contenedorImagenSecCuatro {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*Imagen Seccion Cuatro*/
+    #imagenCinco {
+        width: 90%;
+        height: 70%;
+    }
+
+    /*Contenedor de Textos Seccion Cuatro de Section*/
+    #contenedorTextosSecCuatro {
+        width: 50%;
+        font-size: 3vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 30vw;
+        margin-left: 2vw;
+    }
+
+    /*Parrafo Seccion Cuatro de Section*/
+    #parrafoSecCuatro {
+        font-size: 2.5vw;
+        width: 40vw;
+    }
+
+    /*Boton Seccion Cuatro de Section*/
+    #botonSeis {
+        width: 25vw;
+        padding: 2vw 2vw;
+        background-color: #f5cb00;
+        color: black;
+        border: none;
+        font-size: 2.7vw;
+    }
+
+    /*Seccion Cinco de Section*/
+    #seccionCinco {
+        display: flex;
+        background-color: #e6e6e6;
+        padding: 3vw 3vw;
+        height: 70vw;
+        align-items: center;
+    }
+
+    /*Imagen Seccion Cinco*/
+    #imagenSeis {
+        width: 45vw;
+        height: 45vw;
+        margin-left: 2vw;
+    }
+
+    /*Contenedor de Textos Seccion Cinco de Section*/
+    #contenedorTextosSecCinco {
+        width: 50%;
+        font-size: 3vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 60%;
+        font-size: 3.5vw;
+        margin-left: 3vw;
+
+    }
+
+    /*parrafo Seccion Cinco de Section*/
+    #parrafoSecCinco {
+        font-size: 2.5vw;
+        width: 40vw;
+    }
+
+    /*Boton Seccion Cinco*/
+    #botonSiete {
+        width: 25vw;
+        padding: 2vw 2vw;
+        border: none;
+        background-color: #f5cb00;
+        font-weight: 700;
+        font-size: 3vw;
+    }
+
+    /*Seccion Seis*/
+    #seccionSeisDesktop {
+        display: flex;
+    }
+
+    /*Contenedor Parte uno de Seccion Seis de Section*/
+    #contenedorPartUnoSecSeis {
+        font-size: 3vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /*titulo Parte Uno de Seccion Seis de Section*/
+    #tituloSecSeis {
+        text-align: justify;
+        color: #f5cb00;
+        width: 80%;
+    }
+
+    /*parrafo Seccion Seis de Section*/
+    #parrafoSecSeis {
+        width: 80%;
+        text-align: justify;
+        margin-top: 2vw;
+    }
+
+    /*Boton Seccion Seis*/
+    #botonOcho {
+        color: white;
+        background-color: black;
+        width: 20vw;
+        height: 7vw;
+        padding: 1vw;
+        margin-top: 2vw;
+        font-size: 3vw;
+        font-weight: 500;
+        margin-right: 25vw;
+    }
+
+    /*Formulario Seccion Seis*/
+    #formSecSeis {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+        color: white;
+        width: 40%;
+        padding: 2vw;
+    }
+
+    /*Espacios en Blanco del Formulario*/
+    .espacioBlanco {
+        height: 4vw;
+        width: 40vw;
+        border: 1px solid white;
+        background: transparent;
+        margin: 1vw 2vw;
+    }
+
+    .espacioBlancoName {
+        height: 4vw;
+        width: 18vw;
+        border: 1px solid white;
+        background: transparent;
+    }
+
+    /*Contenedor de Datos de Name y Surname de Formulario*/
+    #infoNameForm {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        font-size: 3vw;
+margin-bottom: 1vw;
+    }
+
+    /*Contenedor Espacios en Blanco de Name y Surname de Formulario*/
+    #contHorizontalForm {
+        display: flex;
+        justify-content: space-between;
+        width: 40vw;
+        margin-bottom: 2vw;
+    }
+
+    /*Contenedor de Dato de Formulario*/
+    .datosForm {
+        margin: 1vw;
+        width: 100%;
+        font-size: 3vw;
+    }
+
+    /*Palabra Surname de Formulario*/
+    #apellido {
+        margin-right: 6vw;
+    }
+
+    /*Contenedor Texto Formulario*/
+    #contenedorTextoForm {
+        width: 100%;
+        text-align: center;
+        margin-top: 3vw;
+        font-size: 3vw;
+    }
+
+    /*Seccion Siete*/
+    #seccionSiete {
+        background-color: #f5cb00;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        height: 100vw;
+        padding: 5vw 2vw;
+    }
+
+    /*Imagen Mapa*/
+    #imagenSiete {
+        width: 90vw;
+        height: 70vw;
+    }
+
+    /*Titulo Seccion Siete de Section*/
+    #tituloSecSiete {
+        font-weight: 700;
+        font-size: 5vw;
+    }
+
+    /*Parrafo Seccion Siete*/
+    #parrafoSecSiete {
+        font-weight: 600;
+        font-size: 4vw;
+    }
+    /*Boton Seccion Siete*/
+    #botonNueve{
+        width: 20vw;
+        height: 7vw;
+        font-size: 3vw;
+        background-color: black;
+        color: white;
+    }
+    /*Footer*/
+    footer {
+        background-color: black;
+        color: #f5cb00;
+        display: flex;
+        flex-direction: column;
+        padding: 5vw;
+    }
+
+    /*Contenedor Footer*/
+    #contenedorHfooter {
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        font-size: 5vw;
+    }
+
+    /*Imagen Footer*/
+    #imagenFooter {
+        width: 30vw;
+        margin-bottom: 5vw;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    /*Linea Amarilla Footer*/
+    #lineaFooter {
+        height: 0.4vw;
+        background-color: white;
+        width: 100%;
+        margin: 2vw 0vw;
+    }
+
+    /*Contenedor Seccion Copyright*/
+    #contCopy {
+        font-size: 3vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
