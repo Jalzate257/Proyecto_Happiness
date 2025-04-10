@@ -519,6 +519,11 @@
         align-items: center;
         justify-content: space-between;
     }
+    /*Imagenes de los Logos en Footer*/
+    #imagenInstFaceFooter{
+        width: 17vw;
+        height: 6vw;
+    }
 }
 @media screen and (min-width:481px) and (max-width: 768px) {
 
@@ -1056,6 +1061,11 @@ margin-bottom: 1vw;
         display: flex;
         align-items: center;
         justify-content: space-between;
+    }
+    /*Imagenes de los Logos en Footer*/
+    #imagenInstFaceFooter{
+        width: 17vw;
+        height: 6vw;
     }
 }
 @media screen and (min-width:769px) and (max-width: 1279px) {
@@ -1595,6 +1605,11 @@ margin-bottom: 1vw;
         align-items: center;
         justify-content: space-between;
     }
+    /*Imagenes de los Logos en Footer*/
+    #imagenInstFaceFooter{
+        width: 17vw;
+        height: 6vw;
+    }
 }
 @media screen and (min-width:1280px)  {
 
@@ -2132,5 +2147,10 @@ margin-bottom: 1vw;
         display: flex;
         align-items: center;
         justify-content: space-between;
+    }
+    /*Imagenes de los Logos en Footer*/
+    #imagenInstFaceFooter{
+        width: 17vw;
+        height: 6vw;
     }
 }
